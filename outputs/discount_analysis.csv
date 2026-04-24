@@ -1,0 +1,7 @@
+discount_band,total_orders,total_sales,total_profit,profit_margin_pct
+"0% discount",4798,1087908.47,320987.88,29.5
+"1-10% discount",94,54369.30,9029.21,16.6
+"11-20% discount",3709,792152.87,91757.14,11.6
+"21-30% discount",227,103226.76,-10369.34,-10.0
+"31-40% discount",233,130911.28,-25448.24,-19.4
+"Over 40% discount",933,128632.39,-99558.86,-77.4
