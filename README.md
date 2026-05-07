@@ -12,6 +12,20 @@ Python (pandas, matplotlib, seaborn), MySQL, Tableau
 Sample Superstore: 9,994 US retail orders across 3 product categories and 4 regions.
 https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
+## Business Questions (Project 1)
+- Which product categories drive the most revenue and profit — and why is there a gap between the two?
+- How does discounting impact profit margins across different product categories?
+- Which US regions are the most and least profitable and what is driving the difference?
+
+## Business Questions (Project 2)
+- Which specific states are operating at a net loss despite strong revenue?
+- Which sub-categories are the hidden profit killers within each category?
+- What is the running sales trend year over year from 2014 to 2017?
+
+## SQL Concepts Demonstrated
+GROUP BY aggregations, HAVING clauses, CASE WHEN statements, window functions 
+(RANK, running totals), subqueries, multi-table joins
+
 ## Key Findings
 - Orders with 0% discount generated 29.5% profit margin vs -77.4% for orders 
   with 40%+ discounts — a 107 percentage point swing
@@ -21,18 +35,6 @@ https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 - Technology was the most profitable category at 17.4% margin
 - The Central region was the weakest performer driven by aggressive discounting
 - The West region was the strongest performer with the healthiest margins
-
-## Business Recommendations
-1. Implement a hard discount cap of 20% across all categories
-2. Prioritize discount reduction in Texas and Ohio immediately
-3. Review Furniture pricing strategy — current model generates revenue but 
-   destroys margin
-4. Shift marketing focus toward Technology in the West region where margins 
-   are strongest
-
-## SQL Concepts Demonstrated
-GROUP BY aggregations, HAVING clauses, CASE WHEN statements, window functions 
-(RANK, running totals), subqueries, multi-table joins
 
 ## Files
 - `analysis.sql` — 10 business intelligence SQL queries
@@ -47,8 +49,11 @@ https://public.tableau.com/app/profile/kayden.williams2622/viz/SuperstoreSalesPe
 Business Intelligence:
 https://public.tableau.com/app/profile/kayden.williams2622/viz/SuperstoreProfitabilityandDiscountImpactAnalysis/SuperstoreProfitabilityandDiscountImpactAnalysis?publish=yes
 
+## Business Recommendations
+1. Implement a hard discount cap of 20% across all categories
+2. Prioritize discount reduction in Texas and Ohio immediately
+3. Review Furniture pricing strategy — current model generates revenue but destroys margin
+4. Shift marketing focus toward Technology in the West region where margins are strongest
+
 ## Note
-This project is included as supplementary portfolio work demonstrating SQL and 
-Python proficiency. The primary analytics portfolio consists of Walmart Sales 
-Analysis, TheLook Financial Analysis, Customer Segmentation, and Excel Financial 
-Dashboard.
+This project is included as supplementary portfolio work demonstrating SQL and Python proficiency.
